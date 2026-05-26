@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lojinha | Small Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">    
+    <link rel="stylesheet" href="style.css">
+    <script src="js/funcoes.js"></script>
+</head>
+<body>
+<div class="container"> 
+    <h1><i id="cifrao" class="bi bi-currency-dollar"></i> Lojinha</h1>
+
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Imagem | Image</th>
+                <th>Produto | Product</th>
+                <th>Preço | Price</th>
+                <th>Qtd</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody> 
+            <tr> 
+                <td><img src="img/produto_1.webp" width="150" alt="Celular"></td>
+                <td>
+                    <div>Celular A17</div>
+                    <div><span class="produto-item">Código:</span> 12345</div>
+                </td>
+                <td>R$ <span id="valor_1">1000</span></td>
+                <td>
+                    <span class="badge bg-danger" style="cursor:pointer" onclick="alterarQtd(1, '-')"><i class="bi bi-dash"></i></span>
+                    <span id="quantidade_1">0</span>
+                    <span class="badge bg-success" style="cursor:pointer" onclick="alterarQtd(1, '+')"><i class="bi bi-plus"></i></span>
+                </td>
+                <td>R$ <span id="total_1">0</span></td>
+            </tr>
+            </tbody>
+    </table>
+
+    <footer class="text-center mt-3">
+        <span class="h5"> 
+            <i class="bi bi-cart-check"></i> Subtotal: R$ <span id="valor_subtotal">0</span>
+        </span>
+    </footer>
+</div>
+</body>
+</html>
