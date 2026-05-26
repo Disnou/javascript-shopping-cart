@@ -4,7 +4,7 @@
 # 🛒 Lojinha Interativa | Interactive Shopping Cart
 
 > Sistema de carrinho de compras dinâmico que utiliza manipulação do DOM para atualizar quantidades, totais individuais e o subtotal geral em tempo real.
-> *Dynamic shopping cart system using DOM manipulation to update quantities, individual totals, and the overall subtotal in real-time.*
+> Dynamic shopping cart system using DOM manipulation to update quantities, individual totals, and the overall subtotal in real-time.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Framework-Bootstrap_5-7952b3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap Badge">
