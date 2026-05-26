@@ -43,4 +43,4 @@ This project simulates an online store interface. The main focus was applying it
 4. Quantity Validation: Ensuring product quantities never drop below zero.
 
 ---
-Desenvolvido por / Developed by:** Disnou
+Desenvolvido por / Developed by: Disnou
